@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sinBullets {
+    list-style: none;
+    display: flex;
+}
+
+header a {
+    color: #ffffff;
+}
+
+.header {
+    background-color: #ff006a;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#menuPrincipal {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    padding-right: 40px;
+    z-index: 2;
+    position: relative;
+}
+
+.movMenu {
+    z-index: 3;
+}
+
+.palmeraHeader {
+    position: absolute;
+    height: 450px;
+    opacity: 0.1;
+}
+
+#palmHeader2 {
+    left: calc(50% - -100px);
+    transform: rotateZ(40deg);
+    top: 0px;
+
+}
+
+#palmHeader3 {
+    right: -230px;
+}
+
+.logoLK {
+    font-family: 'Jomhuria';
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    height: 100%;
+    margin: 40px;
+}
+
+.logoLK span {
+    line-height: 0;
+    margin: 0;
+}
+
+.logoLK span:first-of-type {
+    padding-bottom: 35px;
+}
+
+header li:hover {
+    transform: scale(1.1);
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.logoLK:hover {
+    transform: scale(1.1);
+}
+
+.contenedorBuscar {
+    position: relative;
+    margin: 50px;
+}
+
+input {
+    width: 130px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 0;
+    border-color: #ffffff;
+    outline: none;
+}
+
+button {
+    background-color: white;
+    padding: 10px 15px;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    margin: auto;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    color: #FF006B;
+
+}
+
+button:hover {
+    background-color: #7B0059;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+
+footer {
+    background-color: #FF006B;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+.contenedorGeneralFooter {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.contenedorRedesSociales {
+    font-size: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-bottom: 50px;
+}
+
+.contenedorVCMP {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    margin-bottom: 50px;
+}
+
+#fondoRedes {
+    background-color: #7B0059;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    margin: auto;
+    border-radius: 0px 5px 5px 0px;
+}
+
+footer li:hover {
+    transform: scale(1.1);
+}
+
+footer div h3 {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.botonesRedes {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 30px;
+}
+
+footer .botonesRedes a {
+    background-color: #7B0059;
+    border-radius: 50%;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+}
+
+footer h3 {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonesVCMP {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 30px;
+}
+
+footer .botonesVCMP a {
+    background-color: #7B0059;
+    border-radius: 50%;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+}
+
+#alFondoLK {
+    background-color: #7B0059;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.la-discord:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+
+.la-globe:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}
+
+.la-download:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff;
+}

@@ -1,0 +1,125 @@
+body {
+    background-color: #E0E0E0;
+    margin-bottom: auto;
+}
+
+.banner {
+    background-image: url(../../Recursos/Imagenes/15782187001814_yn061ac.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: 0px 80px;
+}
+
+.textLineadeTiempo {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    user-select: none;
+    font-size: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 115%;
+}
+
+main ul {
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main li {
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+.textCentrar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedorGeneral {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contenedorGeneral > ul:nth-child(2n) {
+    background-color: #dad9d9;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    padding: 150px 10%;
+    margin: auto;
+}
+
+.textAzul {
+    color: #0000ff;
+}
+
+.textRosa {
+    color: #ff0062;
+}
+
+.textRosaFuerte {
+    color: #ff00aa;
+}
+
+.backgroundAño {
+    background-image: url(../../Recursos/Imagenes/Fondoaño.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.textAño {
+    color: #ffffff;
+    user-select: none;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.content2013::after {
+    content: "*(En este tiempo, el líder Karan salió del clan, Guns estaba inactivo y Neji volvió de la inactividad): El clan necesitaba la ayuda de viejos y nuevos miembros para empezar la refundanción y esto es lo que sucedió:";
+    color: #0000ff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap: 40px;
+}
+
+.content2019::before {
+    content: "El clan cumplió 10 años, se vió obligado a cambiar y fortalecer su estructura interna, por lo que se convirtió en una familia donde ya no era necesario estar activo dentro del juego, el clan se convirtió en más que un grupo de juego y superó la virtualidad.";
+    color: #0000ff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap: 40px;
+}
+
+.centrarLi {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}

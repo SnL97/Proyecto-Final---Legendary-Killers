@@ -1,0 +1,205 @@
+.banner {
+    background-image: url(../../Recursos/Imagenes/gta.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: 0px 70px;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    user-select: none;
+    font-size: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 115%;
+}
+
+body {
+    background-color: #E0E0E0;
+}
+
+main ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    gap: 5px;
+    margin-top: 7px;
+}
+
+main ul ul {
+    margin-top: 70px;
+}
+
+.contenedorGeneralMiembros {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    margin-top: 70px;
+}
+
+.rankFounder {
+    background-image: url(../../Recursos/Imagenes/Rangos/Rank-Founder.jpg);
+    background-size: cover;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1903px;
+    height: 91px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.rankLeader {
+    background-image: url(../../Recursos/Imagenes/Rangos/Rank-Leader.jpg);
+    background-size: cover;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1903px;
+    height: 91px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+
+.rankCoLeader {
+    background-image: url(../../Recursos/Imagenes/Rangos/Rank-CoLeader.jpg);
+    background-size: cover;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1903px;
+    height: 91px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+
+.rankFullMember {
+    background-image: url(../../Recursos/Imagenes/Rangos/Rank-FullMember.jpg);
+    background-size: cover;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1903px;
+    height: 91px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+
+.rankRookie {
+    background-image: url(../../Recursos/Imagenes/Rangos/Rank-RookieMember.jpg);
+    background-size: cover;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1903px;
+    height: 91px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+
+.rankTrainee {
+    background-image: url(../../Recursos/Imagenes/Rangos/Rank-TraineeMember.jpg);
+    background-size: cover;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1903px;
+    height: 91px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+}
+
+.contenedorGeneralTextos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+}
+
+.textRango {
+    color: #ffffff;
+    font-family: 'Jomhuria';
+    font-size: 100px;
+    letter-spacing: 0.10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nickNaranja {
+    color: #ffa500;
+}
+
+.imagenPerfil {
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Banderas {
+    display: flex;
+    height: 22px;
+    width: 22px;
+}
+
+.GoldenMember {
+    color: #e2c000;
+}
+
+.HistoryMember {
+    color: #d1b200;
+}
+
+.HonorMember {
+    color: #e2c20a;
+}
+
+.SeniorMember {
+    color: #0077ff;
+}
+
+.verdeActivo {
+    color: #00c400;
+}
+
+.naranjaSemiActivo {
+    color: #ffae19;
+}
+
+.rojoInactivoRetirado {
+    color: #ff0000;
+}
+
+.contenedorExmiembros {
+    display: none;
+}
+
+hr {
+    margin-top: 70px;
+}
+
+.contenedorConsideracion {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    padding: 0px;
+}
