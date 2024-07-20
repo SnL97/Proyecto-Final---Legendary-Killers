@@ -1,5 +1,5 @@
 .banner {
-    background-image: url(../../Recursos/Imagenes/gta.jpg);
+    background-image: url(..//Imagenes/gta.jpg);
     height: 700px;
     background-size: cover;
     background-position: 0px 70px;
@@ -43,7 +43,7 @@ main ul ul {
 }
 
 .rankFounder {
-    background-image: url(../../Recursos/Imagenes/Rangos/Rank-Founder.jpg);
+    background-image: url(..//Imagenes/Rangos/Rank-Founder.jpg);
     background-size: cover;
     user-select: none;
     display: flex;
@@ -60,7 +60,7 @@ strong {
 }
 
 .rankLeader {
-    background-image: url(../../Recursos/Imagenes/Rangos/Rank-Leader.jpg);
+    background-image: url(..//Imagenes/Rangos/Rank-Leader.jpg);
     background-size: cover;
     user-select: none;
     display: flex;
@@ -73,7 +73,7 @@ strong {
 }
 
 .rankCoLeader {
-    background-image: url(../../Recursos/Imagenes/Rangos/Rank-CoLeader.jpg);
+    background-image: url(..//Imagenes/Rangos/Rank-CoLeader.jpg);
     background-size: cover;
     user-select: none;
     display: flex;
@@ -86,7 +86,7 @@ strong {
 }
 
 .rankFullMember {
-    background-image: url(../../Recursos/Imagenes/Rangos/Rank-FullMember.jpg);
+    background-image: url(..//Imagenes/Rangos/Rank-FullMember.jpg);
     background-size: cover;
     user-select: none;
     display: flex;
@@ -99,7 +99,7 @@ strong {
 }
 
 .rankRookie {
-    background-image: url(../../Recursos/Imagenes/Rangos/Rank-RookieMember.jpg);
+    background-image: url(..//Imagenes/Rangos/Rank-RookieMember.jpg);
     background-size: cover;
     user-select: none;
     display: flex;
@@ -112,7 +112,7 @@ strong {
 }
 
 .rankTrainee {
-    background-image: url(../../Recursos/Imagenes/Rangos/Rank-TraineeMember.jpg);
+    background-image: url(..//Imagenes/Rangos/Rank-TraineeMember.jpg);
     background-size: cover;
     user-select: none;
     display: flex;

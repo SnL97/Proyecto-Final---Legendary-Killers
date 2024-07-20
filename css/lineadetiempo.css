@@ -4,7 +4,7 @@ body {
 }
 
 .banner {
-    background-image: url(../../Recursos/Imagenes/15782187001814_yn061ac.jpg);
+    background-image: url(..//Imagenes/15782187001814_yn061ac.jpg);
     height: 700px;
     background-size: cover;
     background-position: 0px 80px;
@@ -77,7 +77,7 @@ main li {
 }
 
 .backgroundAño {
-    background-image: url(../../Recursos/Imagenes/Fondoaño.jpg);
+    background-image: url(..//Imagenes/Fondoaño.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
